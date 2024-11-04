@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body {
+    background-image: url(./images/bg_pnk.jpg);
+    font-family: "Source Han Serif JP", "Noto Serif CJK JP", "游明朝体", "Yu Mincho", YuMincho, serif;
+    background: wheat;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
