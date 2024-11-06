@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 122.99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c1d0ce;
+      }
+
+      .cls-2 {
+        opacity: .3;
+      }
+    </style>
+  </defs>
+  <g id="img">
+    <g class="cls-2">
+      <g>
+        <polygon class="cls-1" points="45.36 42.57 23.73 80.03 66.99 80.03 45.36 42.57"/>
+        <polygon class="cls-1" points="92.79 42.57 71.17 80.03 114.42 80.03 92.79 42.57"/>
+        <polygon class="cls-1" points="140.23 42.57 118.6 80.03 161.86 80.03 140.23 42.57"/>
+        <polygon class="cls-1" points="187.66 42.57 166.03 80.03 209.29 80.03 187.66 42.57"/>
+        <polygon class="cls-1" points="235.1 42.57 213.47 80.03 256.73 80.03 235.1 42.57"/>
+      </g>
+      <g>
+        <polygon class="cls-1" points="68.63 0 47 37.46 90.26 37.46 68.63 0"/>
+        <polygon class="cls-1" points="116.07 0 94.44 37.46 137.7 37.46 116.07 0"/>
+        <polygon class="cls-1" points="163.5 0 141.87 37.46 185.13 37.46 163.5 0"/>
+        <polygon class="cls-1" points="210.94 0 189.31 37.46 232.57 37.46 210.94 0"/>
+        <polygon class="cls-1" points="258.37 0 236.74 37.46 280 37.46 258.37 0"/>
+      </g>
+      <g>
+        <polygon class="cls-1" points="21.63 85.52 0 122.99 43.26 122.99 21.63 85.52"/>
+        <polygon class="cls-1" points="69.06 85.52 47.43 122.99 90.69 122.99 69.06 85.52"/>
+        <polygon class="cls-1" points="116.5 85.52 94.87 122.99 138.13 122.99 116.5 85.52"/>
+        <polygon class="cls-1" points="163.93 85.52 142.3 122.99 185.56 122.99 163.93 85.52"/>
+        <polygon class="cls-1" points="211.37 85.52 189.74 122.99 233 122.99 211.37 85.52"/>
+      </g>
+    </g>
+  </g>
+</svg>

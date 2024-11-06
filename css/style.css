@@ -1,10 +1,9 @@
 @charset "UTF-8";
 body {
     background-image: url(../images/bg_pnk.jpg);
-    font-family: "Source Han Serif JP", "Noto Serif CJK JP", "游明朝体", "Yu Mincho", YuMincho, serif;
 }
 
-div .flex {
+.flex {
     display: flex;
     justify-content: space-evenly;
 }
@@ -16,4 +15,140 @@ img {
 
 .vertical_writing {
     writing-mode: vertical-rl;
+}
+
+.intro_fv p {
+    color: #e57a64;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 0.14em;
+}
+
+.intro_group_triangle {
+    width: 608px;
+}
+
+.position {
+    position: relative;
+}
+
+.intro1,
+.intro2,
+.intro3,
+.intro4,
+.intro5,
+.intro_triangle1,
+.intro_triangle2,
+.intro_triangle3,
+.intro_triangle4,
+.intro_triangle5,
+.intro_triangle6,
+.intro_triangle7,
+.intro_triangle8,
+.intro_triangle9,
+.intro_triangle10,
+.intro_triangle11,
+.intro_line1,
+.intro_line2,
+.intro_nt {
+    position: absolute;
+}
+
+.intro_group {
+    position: absolute;
+    top: 27.5%;
+    left: 21.6%;
+}
+
+.intro_group .intro1 {
+    top: 28%;
+}
+
+.intro_fv .intro2 {
+    font-size: 48px;
+    top: 1%;
+    left: 0.2%;
+}
+
+.intro_fv .intro3 {
+    font-size: 88px;
+    top: 3.6%;
+    right: 6.5%;
+}
+
+
+/* 三角集合体 */
+
+.intro_triangle1 {
+    width: 288px;
+    top: -10%;
+    left: -2%;
+}
+
+.intro_triangle2 {
+    width: 288px;
+    top: 1%;
+    left: -5%;
+}
+
+.intro_triangle3 {
+    width: 224px;
+}
+
+.intro_triangle4 {
+    width: 192px;
+}
+
+.intro_triangle5 {
+    width: 168px;
+}
+
+.intro_triangle6 {
+    width: 224px;
+}
+
+.intro_triangle7 {
+    width: 136px;
+}
+
+.intro_triangle8 {
+    width: 136px;
+}
+
+.intro_triangle9 {
+    width: 168px;
+}
+
+.intro_triangle10 {
+    width: 280px;
+}
+
+.intro_triangle11 {
+    width: 192px;
+}
+
+
+/*装飾括弧*/
+
+.intro_line1 {
+    width: 144px;
+    top: 26%;
+    left: 17.3%;
+    /* top: 300px; */
+    /* left: 332px; */
+}
+
+.intro_line2 {
+    width: 144px;
+    bottom: 17.9%;
+    right: 37.9%;
+}
+
+
+/*糸と針*/
+
+.intro_nt {
+    width: 392px;
+    top: 34.7%;
+    right: 23.5%;
 }

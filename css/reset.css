@@ -20,7 +20,7 @@ li {
     padding: 0;
     line-height: 1;
     /*デフォルトの文字色、font-familyを予め当てておく*/
-    color: #4F260B;
+    color: #48696a;
     /* font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif; */
     font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
@@ -554,5 +554,5 @@ th {
 /* カーニング */
 
 body {
-    font-feature-settings: "palt"2;
+    font-feature-settings: "palt" 2;
 }
