@@ -22,7 +22,10 @@ li {
     /*デフォルトの文字色、font-familyを予め当てておく*/
     color: #48696a;
     /* font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif; */
-    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    /* font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; */
+    font-family: "Source Han Serif JP", ”source-han-serif-japanese”, "Noto Serif CJK JP", "游明朝体", "Yu Mincho", YuMincho, serif;
+    font-style: normal;
+    font-weight: 200;
 }
 
 a {
