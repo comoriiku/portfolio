@@ -79,12 +79,18 @@ img {
 }
 
 .intro_fv .intro3 {
-    font-size: 88px;
+    /* font-size: 88px; */
+    font-size: 4.6vw;
     top: 3.6%;
     right: 6.5%;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     text-orientation: upright;
+}
+
+.intro5 {
+    left: 32%;
+    bottom: 12%;
 }
 
 
@@ -232,7 +238,7 @@ h1 {
 
 .fv p {
     font-size: 72px;
-    font-family: 'Garamon';
+    font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
 }
 
 .fv p span {
