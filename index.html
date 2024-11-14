@@ -12,6 +12,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'dia6lmb',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <!-- jQueryのCDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -51,38 +83,58 @@
         <img class="intro_triangle11" src="./images/triangles_blue.svg" alt="薄い水色の三角形集合体">
         <!--192px-->
     </div>
-    <header class="header_wrap">
-        <div class="inner flex">
-            <h1 class="header_logo flex">
-                <p>KOMORI IKUMI Portfilio</p>
-                <div>
-                    <img class="header_triangle" src="./images/triangle_fv.svg" alt="ロゴのグラデーション三角形">
-                    <img src="./images/needle_threds_fv.svg" alt="ロゴのグラデーション三角形">
-                </div>
-            </h1>
-            <nav class="pc_nav">
-                <ul class="flex">
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">WORKS</a></li>
-                    <li>
-                        <a href=""><img src="./images/mail_header.svg" alt="MAIL"></a>
-                    </li>
-                </ul>
-            </nav>
+    <!-- グラデーション背景の要素を追加 -->
+    <div class="intro_bg">
+        <div>
+            <p><span>白い布が染まるように、</span><span>まっさらから1をつくり出す。</span></p>
         </div>
-    </header>
-
-    <div class="fv flex">
-        <p>KOMORI IKUMI<br><span>Portfolio</span></p>
-        <div><img class="fv_group_triangle" src="./images/triangle_fv.svg" alt="グラデーションの三角形">
-            <img class="fv_nt" src="./images/needle_threds_fv.svg" alt="針と糸のイラスト">
-            <!--針と糸-->
-        </div>
-
     </div>
+    <!------------------------------->
+    <div id="container">
+        <header class="header_wrap">
+            <div class="inner flex">
+                <h1 class="header_logo flex">
+                    <p>KOMORI IKUMI Portfilio</p>
+                    <div>
+                        <img class="header_triangle" src="./images/triangle_fv.svg" alt="ロゴのグラデーション三角形">
+                        <img src="./images/needle_threds_fv.svg" alt="ロゴのグラデーション三角形">
+                    </div>
+                </h1>
+                <nav class="pc_nav">
+                    <ul class="flex">
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">WORKS</a></li>
+                        <li>
+                            <a href=""><img src="./images/mail_header.svg" alt="MAIL"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-    <main class="">
-    </main>
+        <div class="fv flex">
+            <p>KOMORI IKUMI<br><span>Portfolio</span></p>
+            <div><img class="fv_group_triangle" src="./images/triangle_fv.svg" alt="グラデーションの三角形">
+                <img class="fv_nt" src="./images/needle_threds_fv.svg" alt="針と糸のイラスト">
+                <!--針と糸-->
+            </div>
+
+        </div>
+
+        <main class="">
+        </main>
+    </div>
+    <script>
+        $(window).on('load', function() {
+            $("#loading").delay(5000).fadeOut(2000); // ローディング画面を5秒表示、2秒かけてフェードアウト
+            $(".intro_fv").delay(200).fadeIn(2000); // 0.2秒後に、ローディング画面内のアイテムを2秒かけて表示
+            setTimeout(function() {
+                $(".intro_fv").addClass('fv_blur'); // 2.5秒後に、全体にぼかしを入れる
+            }, 2500);
+            $(".intro_bg").delay(3000).fadeIn('slow'); // 3秒後に、グラデーションの背景を表示
+
+        });
+    </script>
 </body>
 
 </html>
