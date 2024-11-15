@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.69 46.47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        font-family: Poppins-Regular, Poppins;
+        font-size: 32px;
+        stroke: #48696a;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #48696a;
+      }
+
+      .cls-3 {
+        letter-spacing: .05em;
+      }
+
+      .cls-4 {
+        letter-spacing: .04em;
+      }
+
+      .cls-5 {
+        letter-spacing: .04em;
+      }
+
+      .cls-6 {
+        letter-spacing: .04em;
+      }
+
+      .cls-7 {
+        letter-spacing: .04em;
+      }
+
+      .cls-8 {
+        letter-spacing: .04em;
+      }
+    </style>
+  </defs>
+  <g id="img">
+    <g>
+      <text class="cls-1" transform="translate(.5 27.67)"><tspan class="cls-4" x="0" y="0">S</tspan><tspan class="cls-6" x="19.99" y="0">k</tspan><tspan class="cls-8" x="37.9" y="0">i</tspan><tspan class="cls-7" x="47" y="0">l</tspan><tspan class="cls-5" x="56.09" y="0">l</tspan><tspan class="cls-3" x="65.24" y="0">s</tspan></text>
+      <g>
+        <polygon class="cls-2" points="108.69 17.96 101.77 13.96 101.77 21.96 108.69 17.96"/>
+        <polygon class="cls-2" points="119.19 17.96 112.27 13.96 112.27 21.96 119.19 17.96"/>
+        <polygon class="cls-2" points="129.69 17.96 122.77 13.96 122.77 21.96 129.69 17.96"/>
+      </g>
+    </g>
+  </g>
+</svg>

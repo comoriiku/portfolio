@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #48696a;
+      }
+
+      .cls-2 {
+        fill: #fefdfa;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Poppins-Regular, Poppins;
+        font-size: 16px;
+        letter-spacing: .1em;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #fefdfa;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="img">
+    <g>
+      <rect class="cls-1" y="0" width="284" height="64" rx="32" ry="32"/>
+      <polyline class="cls-4" points="210 34.5 231.38 34.5 222.12 25.25"/>
+      <g>
+        <text class="cls-3" transform="translate(91.23 36.59)"><tspan x="0" y="0">VIEW MORE</tspan></text>
+        <text class="cls-2" transform="translate(91.23 36.59)"><tspan x="0" y="0">VIEW MORE</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 181.19 46.47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        font-family: Poppins-Regular, Poppins;
+        font-size: 32px;
+        stroke: #48696a;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #48696a;
+      }
+
+      .cls-3 {
+        letter-spacing: .05em;
+      }
+
+      .cls-4 {
+        letter-spacing: .04em;
+      }
+
+      .cls-5 {
+        letter-spacing: .04em;
+      }
+
+      .cls-6 {
+        letter-spacing: .04em;
+      }
+
+      .cls-7 {
+        letter-spacing: .04em;
+      }
+
+      .cls-8 {
+        letter-spacing: .04em;
+      }
+
+      .cls-9 {
+        letter-spacing: .03em;
+      }
+    </style>
+  </defs>
+  <g id="img">
+    <g>
+      <text class="cls-1" transform="translate(.5 27.67)"><tspan class="cls-5" x="0" y="0">M</tspan><tspan class="cls-8" x="28.97" y="0">i</tspan><tspan class="cls-7" x="38.09" y="0">n</tspan><tspan class="cls-6" x="59.84" y="0">d</tspan><tspan class="cls-4" x="82.73" y="0">s</tspan><tspan class="cls-9" x="100.63" y="0">e</tspan><tspan class="cls-3" x="121.4" y="0">t</tspan></text>
+      <g>
+        <polygon class="cls-2" points="160.19 17.96 153.27 13.96 153.27 21.96 160.19 17.96"/>
+        <polygon class="cls-2" points="170.69 17.96 163.77 13.96 163.77 21.96 170.69 17.96"/>
+        <polygon class="cls-2" points="181.19 17.96 174.27 13.96 174.27 21.96 181.19 17.96"/>
+      </g>
+    </g>
+  </g>
+</svg>

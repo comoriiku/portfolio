@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 154.45 46.47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #48696a;
+      }
+
+      .cls-2 {
+        fill: none;
+        font-family: Poppins-Regular, Poppins;
+        font-size: 32px;
+        letter-spacing: .05em;
+        stroke: #48696a;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="img">
+    <g>
+      <text class="cls-2" transform="translate(.5 27.67)"><tspan x="0" y="0">Profile</tspan></text>
+      <g>
+        <polygon class="cls-1" points="133.45 17.99 126.52 13.99 126.52 21.99 133.45 17.99"/>
+        <polygon class="cls-1" points="143.95 17.99 137.02 13.99 137.02 21.99 143.95 17.99"/>
+        <polygon class="cls-1" points="154.45 17.99 147.52 13.99 147.52 21.99 154.45 17.99"/>
+      </g>
+    </g>
+  </g>
+</svg>

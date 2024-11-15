@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 490.93 460.76">
+  <defs>
+    <style>
+      .cls-1 {
+        mask: url(#mask);
+      }
+
+      .cls-2 {
+        filter: url(#luminosity-noclip);
+      }
+
+      .cls-3 {
+        filter: url(#luminosity-noclip-3);
+      }
+
+      .cls-4 {
+        filter: url(#luminosity-noclip-2);
+      }
+
+      .cls-5 {
+        mask: url(#mask-2);
+      }
+
+      .cls-6 {
+        mask: url(#mask-1);
+      }
+
+      .cls-7 {
+        letter-spacing: .1em;
+      }
+
+      .cls-7, .cls-8 {
+        fill: #48696a;
+        font-family: SourceHanSerif-ExtraLight-83pv-RKSJ-H, 'Source Han Serif';
+        font-size: 24px;
+        font-weight: 200;
+      }
+
+      .cls-9 {
+        letter-spacing: -.23em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.15em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-15 {
+        fill: none;
+        stroke: #48696a;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-16 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        letter-spacing: .08em;
+      }
+
+      .cls-19 {
+        letter-spacing: .06em;
+      }
+
+      .cls-20 {
+        letter-spacing: .02em;
+      }
+
+      .cls-21 {
+        letter-spacing: .03em;
+      }
+
+      .cls-22 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <filter id="luminosity-noclip" x="0" y="181.06" width="257.69" height="279.7" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask" x="0" y="181.06" width="257.69" height="279.7" maskUnits="userSpaceOnUse">
+      <g class="cls-2">
+        <polygon points="145.47 228.68 129.49 225.9 137.51 181.06 153.49 183.83 145.47 228.68"/>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip-2" x="116.62" y="0" width="257.69" height="257.69" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-1" x="116.62" y="0" width="257.69" height="257.69" maskUnits="userSpaceOnUse">
+      <g class="cls-4">
+        <polygon points="371.95 210.02 362.68 223.33 325.42 197.11 334.69 183.8 371.95 210.02"/>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip-3" x="221.81" y="203.07" width="269.12" height="257.69" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-2" x="221.81" y="203.07" width="269.12" height="257.69" maskUnits="userSpaceOnUse">
+      <g class="cls-3">
+        <polygon points="260.47 366.87 269.12 380.59 230.46 404.71 221.81 390.99 260.47 366.87"/>
+      </g>
+    </mask>
+  </defs>
+  <g id="img">
+    <g>
+      <g class="cls-1">
+        <circle class="cls-15" cx="128.85" cy="331.91" r="128.35"/>
+      </g>
+      <g class="cls-6">
+        <circle class="cls-15" cx="245.46" cy="128.85" r="128.35"/>
+      </g>
+      <g class="cls-5">
+        <circle class="cls-15" cx="362.08" cy="331.91" r="128.35"/>
+      </g>
+      <text class="cls-8" transform="translate(143.51 142.41)"><tspan class="cls-10" x="0" y="0">コ</tspan><tspan class="cls-9" x="21.65" y="0">ミ</tspan><tspan class="cls-12" x="40.03" y="0">ュ</tspan><tspan class="cls-19" x="62.54" y="0">ニ</tspan><tspan class="cls-17" x="88.03" y="0">ケ</tspan><tspan class="cls-22" x="111.82" y="0">ー</tspan><tspan class="cls-13" x="135.96" y="0">シ</tspan><tspan class="cls-11" x="156.41" y="0">ョ</tspan><tspan class="cls-20" x="178.28" y="0">ン</tspan></text>
+      <text class="cls-7" transform="translate(102.45 346.41)"><tspan x="0" y="0">提案</tspan></text>
+      <text class="cls-8" transform="translate(312.88 346.41)"><tspan class="cls-21" x="0" y="0">こ</tspan><tspan class="cls-18" x="24.67" y="0">だ</tspan><tspan class="cls-16" x="50.52" y="0">わ</tspan><tspan class="cls-14" x="73.2" y="0">り</tspan></text>
+    </g>
+  </g>
+</svg>
