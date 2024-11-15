@@ -278,7 +278,17 @@ h4 {
     z-index: 30;
 }
 
-.fv div::after {
+.fv_group_triangle2 {
+    /* width: 698px; */
+    width: 34.3vw;
+    position: absolute;
+    left: 12%;
+    top: 6%;
+    z-index: -1;
+}
+
+
+/* .fv div::after {
     content: "";
     position: absolute;
     left: 14%;
@@ -289,7 +299,7 @@ h4 {
     border-width: 0 320px 554.3px 320px;
     border-color: transparent transparent #fcfcfa transparent;
     z-index: -1;
-}
+} */
 
 .fv p {
     font-size: 72px;
@@ -338,20 +348,7 @@ svg .svg-elem-1 {
     transition: stroke-dashoffset 1.9s cubic-bezier(0.645, 0.045, 0.355, 1) 0.4s, fill 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s;
 }
 
-svg.active .svg-elem-1 {
-    stroke-dashoffset: 0;
-    fill: rgb(229, 122, 100);
-}
-
-svg .svg-elem-2 {
-    stroke-dashoffset: 592.8157348632812px;
-    stroke-dasharray: 592.8157348632812px;
-    fill: transparent;
-    -webkit-transition: stroke-dashoffset 1.9s cubic-bezier(0.645, 0.045, 0.355, 1) 0.52s, fill 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3s;
-    transition: stroke-dashoffset 1.9s cubic-bezier(0.645, 0.045, 0.355, 1) 0.52s, fill 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3s;
-}
-
-svg.active .svg-elem-2 {
+svg .svg-elem-1.active {
     stroke-dashoffset: 0;
     fill: rgb(229, 122, 100);
 }
